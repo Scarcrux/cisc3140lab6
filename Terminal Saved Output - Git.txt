@@ -1,0 +1,458 @@
+Last login: Thu Sep 17 03:57:50 on ttys000
+ ~  
+  [Restored Sep 20, 2020 at 11:05:25 PM]
+Last login: Thu Sep 17 14:56:36 on console
+ ~  svn --version
+svn: error: The subversion command line tools are no longer provided by Xcode.
+ ✘  ~  brew options subversion
+ ~  brew install (OPTIONS) subversion
+zsh: unknown sort specifier
+ ✘  ~  brew install subversion
+Updating Homebrew...
+==> Auto-updated Homebrew!
+Updated 1 tap (homebrew/core).
+==> Updated Formulae
+Updated 239 formulae.
+
+==> Downloading https://homebrew.bintray.com/bottles/apr-1.7.0.catalina.bottle.t
+==> Downloading from https://d29vzk4ow07wi7.cloudfront.net/277c42fcf2f5ca298a142
+######################################################################## 100.0%
+==> Downloading https://homebrew.bintray.com/bottles/apr-util-1.6.1_3.catalina.b
+==> Downloading from https://d29vzk4ow07wi7.cloudfront.net/425955a21c3fec8e78f36
+######################################################################## 100.0%
+==> Downloading https://homebrew.bintray.com/bottles/lz4-1.9.2.catalina.bottle.t
+==> Downloading from https://d29vzk4ow07wi7.cloudfront.net/7de6165d86c7a7ae01d25
+######################################################################## 100.0%
+==> Downloading https://homebrew.bintray.com/bottles/perl-5.32.0.catalina.bottle
+==> Downloading from https://d29vzk4ow07wi7.cloudfront.net/bc6c97521b6edf723c8ee
+######################################################################## 100.0%
+==> Downloading https://homebrew.bintray.com/bottles/utf8proc-2.5.0.catalina.bot
+######################################################################## 100.0%
+==> Downloading https://homebrew.bintray.com/bottles/subversion-1.14.0_2.catalin
+==> Downloading from https://d29vzk4ow07wi7.cloudfront.net/84dfd162eaa16691be660
+######################################################################## 100.0%
+==> Installing dependencies for subversion: apr, apr-util, lz4, perl and utf8proc
+==> Installing subversion dependency: apr
+==> Pouring apr-1.7.0.catalina.bottle.tar.gz
+==> Caveats
+apr is keg-only, which means it was not symlinked into /usr/local,
+because Apple's CLT provides apr.
+
+If you need to have apr first in your PATH run:
+  echo 'export PATH="/usr/local/opt/apr/bin:$PATH"' >> ~/.zshrc
+
+==> Summary
+🍺  /usr/local/Cellar/apr/1.7.0: 59 files, 1.4MB
+==> Installing subversion dependency: apr-util
+==> Pouring apr-util-1.6.1_3.catalina.bottle.tar.gz
+==> Caveats
+apr-util is keg-only, which means it was not symlinked into /usr/local,
+because Apple's CLT provides apr (but not apr-util).
+
+If you need to have apr-util first in your PATH run:
+  echo 'export PATH="/usr/local/opt/apr-util/bin:$PATH"' >> ~/.zshrc
+
+==> Summary
+🍺  /usr/local/Cellar/apr-util/1.6.1_3: 54 files, 785.7KB
+==> Installing subversion dependency: lz4
+==> Pouring lz4-1.9.2.catalina.bottle.tar.gz
+🍺  /usr/local/Cellar/lz4/1.9.2: 22 files, 589.5KB
+==> Installing subversion dependency: perl
+==> Pouring perl-5.32.0.catalina.bottle.tar.gz
+==> Caveats
+By default non-brewed cpan modules are installed to the Cellar. If you wish
+for your modules to persist across updates we recommend using `local::lib`.
+
+You can set that up like this:
+  PERL_MM_OPT="INSTALL_BASE=$HOME/perl5" cpan local::lib
+  echo 'eval "$(perl -I$HOME/perl5/lib/perl5 -Mlocal::lib=$HOME/perl5)"' >> ~/.zshrc
+==> Summary
+🍺  /usr/local/Cellar/perl/5.32.0: 2,458 files, 63.5MB
+==> Installing subversion dependency: utf8proc
+==> Pouring utf8proc-2.5.0.catalina.bottle.tar.gz
+🍺  /usr/local/Cellar/utf8proc/2.5.0: 10 files, 650.2KB
+==> Installing subversion
+==> Pouring subversion-1.14.0_2.catalina.bottle.1.tar.gz
+==> Caveats
+svntools have been installed to:
+  /usr/local/opt/subversion/libexec
+
+The perl bindings are located in various subdirectories of:
+  /usr/local/opt/subversion/lib/perl5
+
+You may need to link the Java bindings into the Java Extensions folder:
+  sudo mkdir -p /Library/Java/Extensions
+  sudo ln -s /usr/local/lib/libsvnjavahl-1.dylib /Library/Java/Extensions/libsvnjavahl-1.dylib
+
+Bash completion has been installed to:
+  /usr/local/etc/bash_completion.d
+==> Summary
+🍺  /usr/local/Cellar/subversion/1.14.0_2: 234 files, 30.6MB
+==> Caveats
+==> apr
+apr is keg-only, which means it was not symlinked into /usr/local,
+because Apple's CLT provides apr.
+
+If you need to have apr first in your PATH run:
+  echo 'export PATH="/usr/local/opt/apr/bin:$PATH"' >> ~/.zshrc
+
+==> apr-util
+apr-util is keg-only, which means it was not symlinked into /usr/local,
+because Apple's CLT provides apr (but not apr-util).
+
+If you need to have apr-util first in your PATH run:
+  echo 'export PATH="/usr/local/opt/apr-util/bin:$PATH"' >> ~/.zshrc
+
+==> perl
+By default non-brewed cpan modules are installed to the Cellar. If you wish
+for your modules to persist across updates we recommend using `local::lib`.
+
+You can set that up like this:
+  PERL_MM_OPT="INSTALL_BASE=$HOME/perl5" cpan local::lib
+  echo 'eval "$(perl -I$HOME/perl5/lib/perl5 -Mlocal::lib=$HOME/perl5)"' >> ~/.zshrc
+==> subversion
+svntools have been installed to:
+  /usr/local/opt/subversion/libexec
+
+The perl bindings are located in various subdirectories of:
+  /usr/local/opt/subversion/lib/perl5
+
+You may need to link the Java bindings into the Java Extensions folder:
+  sudo mkdir -p /Library/Java/Extensions
+  sudo ln -s /usr/local/lib/libsvnjavahl-1.dylib /Library/Java/Extensions/libsvnjavahl-1.dylib
+
+Bash completion has been installed to:
+  /usr/local/etc/bash_completion.d
+ ~  svn --version
+svn, version 1.14.0 (r1876290)
+   compiled Jul  4 2020, 21:17:27 on x86_64-apple-darwin19.5.0
+
+Copyright (C) 2020 The Apache Software Foundation.
+This software consists of contributions made by many people;
+see the NOTICE file for more information.
+Subversion is open source software, see http://subversion.apache.org/
+
+The following repository access (RA) modules are available:
+
+* ra_svn : Module for accessing a repository using the svn network protocol.
+  - with Cyrus SASL authentication
+  - handles 'svn' scheme
+* ra_local : Module for accessing a repository on local disk.
+  - handles 'file' scheme
+* ra_serf : Module for accessing a repository via WebDAV protocol using serf.
+  - using serf 1.3.9 (compiled with 1.3.9)
+  - handles 'http' scheme
+  - handles 'https' scheme
+
+The following authentication credential caches are available:
+
+* Mac OS X Keychain
+
+ ~  cls
+zsh: command not found: cls
+ ✘  ~  clear
+
+ ~  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ~  cd Downloads
+ ~/Downloads  mkdir Lab 
+ ~/Downloads  cd Lab
+ ~/Downloads/Lab  git init
+Initialized empty Git repository in /Users/scarcrux/Downloads/Lab/.git/
+ ~/Downloads/Lab   master  clear
+
+ ~/Downloads/Lab   master  cd ..
+ ~/Downloads  clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ~/Downloads  mkdir Repo1
+ ~/Downloads  cd Repo1 
+ ~/Downloads/Repo1  git **create -d "\<Empty Directory\>"**
+zsh: no matches found: **create
+ ✘  ~/Downloads/Repo1  brew install hub
+Updating Homebrew...
+==> Auto-updated Homebrew!
+Updated 1 tap (homebrew/core).
+==> Updated Formulae
+Updated 2 formulae.
+
+==> Downloading https://homebrew.bintray.com/bottles/hub-2.14.2.catalina.bottle.
+==> Downloading from https://d29vzk4ow07wi7.cloudfront.net/fdf05855839a9d7ec6e7b
+######################################################################## 100.0%
+==> Pouring hub-2.14.2.catalina.bottle.tar.gz
+==> Caveats
+Bash completion has been installed to:
+  /usr/local/etc/bash_completion.d
+
+zsh completions have been installed to:
+  /usr/local/share/zsh/site-functions
+==> Summary
+🍺  /usr/local/Cellar/hub/2.14.2: 64 files, 9.4MB
+ ~/Downloads/Repo1  git **create -d "\<Empty Directory\>"**
+zsh: no matches found: **create
+ ✘  ~/Downloads/Repo1  git init
+Initialized empty Git repository in /Users/scarcrux/Downloads/Repo1/.git/
+ ~/Downloads/Repo1   master  git add .
+ ~/Downloads/Repo1   master  git commit -m "1st"
+On branch master
+
+Initial commit
+
+nothing to commit (create/copy files and use "git add" to track)
+ ✘  ~/Downloads/Repo1   master  hub create
+github.com username: scarcrux
+github.com password for scarcrux (never stored): 
+Updating origin
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+error: Could not fetch origin
+ ✘  ~/Downloads/Repo1   master  hub create
+Existing repository detected
+https://github.com/Scarcrux/Repo1
+ ~/Downloads/Repo1   master  git push -u origin HEAD
+error: src refspec HEAD does not match any
+error: failed to push some refs to 'github.com:Scarcrux/Repo1.git'
+ ✘  ~/Downloads/Repo1   master  ls
+ ~/Downloads/Repo1   master  cat > hello.js
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Hello!");
+    }
+}
+ ~/Downloads/Repo1   master  ls
+hello.js
+ ~/Downloads/Repo1   master  head hello.js 
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Hello!");
+    }
+}
+ ~/Downloads/Repo1   master  mv hello.js hello.java
+ ~/Downloads/Repo1   master  ls
+hello.java
+ ~/Downloads/Repo1   master  git add .              
+ ~/Downloads/Repo1   master ✚  git push -u origin HEAD
+error: src refspec HEAD does not match any
+error: failed to push some refs to 'github.com:Scarcrux/Repo1.git'
+ ✘  ~/Downloads/Repo1   master ✚  git push -u origin
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+
+ ~  cd Downloads/Repo1 
+ ~/Downloads/Repo1   master ✚  ls
+hello.java
+ ~/Downloads/Repo1   master ✚  git commit -m "Hello"
+[master (root-commit) 63b5761] Hello
+ 1 file changed, 5 insertions(+)
+ create mode 100644 hello.java
+ ~/Downloads/Repo1   master  git push -u origin master
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+ ✘  ~/Downloads/Repo1   master  git remote add origin https://github.com/Scarcrux/Repo1.git
+fatal: remote origin already exists.
+ ✘  ~/Downloads/Repo1   master  git branch -M master
+ ~/Downloads/Repo1   master  git push -u origin master
+Warning: Permanently added the RSA host key for IP address '' to the list of known hosts.
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+ ✘  ~/Downloads/Repo1   master  ssh -T scarcrux@github.com
+scarcrux@github.com: Permission denied (publickey).
+ ✘  ~/Downloads/Repo1   master  ls -al ~/.ssh
+total 8
+drwx------   3 scarcrux  staff    96 Apr 17 21:56 .
+drwxr-xr-x+ 74 scarcrux  staff  2368 Sep 21 01:04 ..
+-rw-r--r--   1 scarcrux  staff  1193 Sep 21 01:01 known_hosts
+ ~/Downloads/Repo1   master  ssh-keygen -t rsa -b 4096 -C "scarcrux@github.com"
+Generating public/private rsa key pair.
+Enter file in which to save the key (/Users/scarcrux/.ssh/id_rsa): git
+Enter passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+Your identification has been saved in git.
+Your public key has been saved in git.pub.
+The key fingerprint is:
+SHA256:Jf06s6oz2OR6LHH1hZqIScmcmlbXGDwYz2myu5i3Mio scarcrux@github.com
+The key's randomart image is:
++---[RSA 4096]----+
+|    .+           |
+|    .o+. .       |
+|   o.o==. o.     |
+|    B+o oo...    |
+|   =.+ oS+ ..    |
+|  + +.+ o ..     |
+| .  .O    +      |
+|E oo+.B    +     |
+|o.o++=.+...      |
++----[SHA256]-----+
+ ~/Downloads/Repo1   master  eval "$(ssh-agent -s)"
+Agent pid 25185
+ ~/Downloads/Repo1   master  open ~/.ssh/config
+The file /Users/scarcrux/.ssh/config does not exist.
+ ✘  ~/Downloads/Repo1   master  touch ~/.ssh/config
+ ~/Downloads/Repo1   master  vim ~/.ssh/config
+ ~/Downloads/Repo1   master  ssh-add -K ~/.ssh/git 
+/Users/scarcrux/.ssh/git: No such file or directory
+ ✘  ~/Downloads/Repo1   master  ssh-keygen -t rsa -b 4096 -C "scarcrux@github.com"
+Generating public/private rsa key pair.
+Enter file in which to save the key (/Users/scarcrux/.ssh/id_rsa): 
+Enter passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+Your identification has been saved in /Users/scarcrux/.ssh/id_rsa.
+Your public key has been saved in /Users/scarcrux/.ssh/id_rsa.pub.
+The key fingerprint is:
+SHA256:EtadDSOP2zQXUc26LdTUMBA4jF2nTNIOOnKgP7sgUKU scarcrux@github.com
+The key's randomart image is:
++---[RSA 4096]----+
+|    .   .+++B==+.|
+|   o  ...=*O.+ .=|
+|  E  .o.o.*+=  + |
+| .  ....++ o. o .|
+|.    ..oS..  . o |
+| .    o.      o .|
+|  . .  o       . |
+|   . ..          |
+|      ..         |
++----[SHA256]-----+
+ ~/Downloads/Repo1   master  ssh-add -K ~/.ssh/id_rsa
+Enter passphrase for /Users/scarcrux/.ssh/id_rsa: 
+Identity added: /Users/scarcrux/.ssh/id_rsa (scarcrux@github.com)
+ ~/Downloads/Repo1   master  pbcopy < ~/.ssh/id_rsa.pub
+ ~/Downloads/Repo1   master  git push -u origin master 
+load pubkey "/Users/scarcrux/.ssh/id_rsa/git": Not a directory
+load pubkey "/Users/scarcrux/.ssh/id_rsa/git": Not a directory
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 298 bytes | 298.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To github.com:Scarcrux/Repo1.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+ ~/Downloads/Repo1   master  ls
+git        git.pub    hello.java
+ ~/Downloads/Repo1   master  vim hello.java 
+ ~/Downloads/Repo1   master  emacs hello.java 
+zsh: command not found: emacs
+ ✘  ~/Downloads/Repo1   master  emac hello.java 
+zsh: command not found: emac
+ ✘  ~/Downloads/Repo1   master  vim hello.java  
+ ~/Downloads/Repo1   master ●  nano hello.java 
+ ~/Downloads/Repo1   master ●  head hello.java 
+public class Main {
+     public static void main(String[] args) {
+          System.out.println("Today's date is September 21.");
+}
+ ~/Downloads/Repo1   master ●  git commit -m "Today Date"
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   hello.java
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	git
+	git.pub
+
+no changes added to commit (use "git add" and/or "git commit -a")
+ ✘  ~/Downloads/Repo1   master ●  git add hello.java 
+ ~/Downloads/Repo1   master ✚  git commit -m "Today Date"
+[master fbe7044] Today Date
+ 1 file changed, 2 insertions(+), 3 deletions(-)
+ ~/Downloads/Repo1   master  git push -u origin master
+load pubkey "/Users/scarcrux/.ssh/id_rsa/git": Not a directory
+load pubkey "/Users/scarcrux/.ssh/id_rsa/git": Not a directory
+Warning: Permanently added the RSA host key for IP address '' to the list of known hosts.
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 349 bytes | 349.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To github.com:Scarcrux/Repo1.git
+   63b5761..fbe7044  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+ ~/Downloads/Repo1   master  cd ..
+ ~/Downloads  mkdir RepoMeta  
+ ~/Downloads  cd RepoMeta 
+ ~/Downloads/RepoMeta  
+ ~/Downloads/RepoMeta  git remote rm Repo1
+fatal: not a git repository (or any of the parent directories): .git
+ ✘  ~/Downloads/RepoMeta  git remote -v
+fatal: not a git repository (or any of the parent directories): .git
+ ✘  ~/Downloads/RepoMeta  cd ..
+ ~/Downloads  cd Repo1 
+ ~/Downloads/Repo1   master  git remote -v
+origin	git@github.com:Scarcrux/Repo1.git (fetch)
+origin	git@github.com:Scarcrux/Repo1.git (push)
+ ~/Downloads/Repo1   master  git remote rm Repo1
+fatal: No such remote: 'Repo1'
+ ✘  ~/Downloads/Repo1   master  git remote rm Repo1.git
+fatal: No such remote: 'Repo1.git'
+ ✘  ~/Downloads/Repo1   master  git remote rm          
+usage: git remote remove <name>
+
+ ✘  ~/Downloads/Repo1   master  ls    
+git        git.pub    hello.java
+ ~/Downloads/Repo1   master  rm -rf git
+ ~/Downloads/Repo1   master  ls
+git.pub    hello.java
+ ~/Downloads/Repo1   master  rm -rf git.pub
+ ~/Downloads/Repo1   master  ls
+hello.java
+ ~/Downloads/Repo1   master  cd ..
+ ~/Downloads/Repo1   master  rm -rf Repo1
