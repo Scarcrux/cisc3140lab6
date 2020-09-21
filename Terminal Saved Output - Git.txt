@@ -394,7 +394,7 @@ public class Main {
      public static void main(String[] args) {
           System.out.println("Today's date is September 21.");
 }
- ~/Downloads/Repo1   master ●  git commit -m "Today Date"
+ ~/Downloads/Repo1   master ●  git commit -m "Java program that prints today's date"
 On branch master
 Your branch is up to date with 'origin/master'.
 

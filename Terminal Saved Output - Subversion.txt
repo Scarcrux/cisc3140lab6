@@ -1,0 +1,246 @@
+Last login: Mon Sep 21 00:24:42 on ttys001
+ ~  cd ..
+ /Users  cd scarcrux
+ ~  mkdir subversion
+ ~  cd subversion 
+ ~/subversion  svnadmin create repo
+ ~/subversion  svn mkdir file:///Users/scarcrux/subversion/repo/projects -m "new folder setup"
+Committing transaction...
+Committed revision 1.
+ ~/subversion  svn mkdir file:///Users/scarcrux/subversion/repo/projects/lab6 -m "new folder setup"
+Committing transaction...
+Committed revision 2.
+ ~/subversion  ls
+repo
+ ~/subversion  svn import "." "file:///Users/scarcrux/subversion/repo/projects" -m "importing project"
+Adding         repo
+Adding         repo/README.txt
+Adding         repo/conf
+Adding         repo/conf/authz
+Adding         repo/conf/hooks-env.tmpl
+Adding         repo/conf/passwd
+Adding         repo/conf/svnserve.conf
+Adding         repo/db
+Adding         repo/db/current
+Adding         repo/db/format
+Adding         repo/db/fs-type
+Adding         repo/db/fsfs.conf
+Adding         repo/db/min-unpacked-rev
+Adding  (bin)  repo/db/rep-cache.db
+Adding         repo/db/rep-cache.db-journal
+Adding         repo/db/revprops
+Adding         repo/db/revprops/0
+Adding         repo/db/revprops/0/0
+Adding         repo/db/revprops/0/1
+Adding         repo/db/revprops/0/2
+Adding         repo/db/revs
+Adding         repo/db/revs/0
+Adding  (bin)  repo/db/revs/0/0
+Adding  (bin)  repo/db/revs/0/1
+Adding  (bin)  repo/db/revs/0/2
+Adding         repo/db/transactions
+Adding         repo/db/transactions/2-2.txn
+Adding         repo/db/transactions/2-2.txn/005ed0b0c9e3ea5d84be64386aadc786164013d8
+Adding         repo/db/transactions/2-2.txn/01f49f153d0fbb612f022f9433638f4fe70675d3
+Adding         repo/db/transactions/2-2.txn/09d2af8dd22201dd8d48e5dcfcaed281ff9422c7
+Adding         repo/db/transactions/2-2.txn/10dd72b93e84fe05cc29482763ee1f0cf5ce8527
+Adding         repo/db/transactions/2-2.txn/1f90a4e4b5763164cc6c45815a099ee788238f0d
+Adding         repo/db/transactions/2-2.txn/298df3559255e00a16775e85e61540f177020d32
+Adding         repo/db/transactions/2-2.txn/2e3fdc38e9b4b1b8cd5a521e21c83392866d765b
+Adding         repo/db/transactions/2-2.txn/649c77c124025c9ae7b3ca955379a27d58cd1bbf
+Adding         repo/db/transactions/2-2.txn/64d6424d1d75e629ca09fb181ce6f837a0f3839e
+Adding         repo/db/transactions/2-2.txn/7448d8798a4380162d4b56f9b452e2f6f9e24e7a
+Adding         repo/db/transactions/2-2.txn/78d5a488e604f49fb54845c48d94483d89eb2497
+Adding         repo/db/transactions/2-2.txn/8ff66b5cafd038d5d3f88f9eca8b66a06dcfe361
+Adding         repo/db/transactions/2-2.txn/986a473648bef4e3f7bf7852780f17348dafd6f0
+Adding         repo/db/transactions/2-2.txn/9e715714847901b3f1884e4ad428fadf655cf04d
+Adding         repo/db/transactions/2-2.txn/a589219048b41b0b647a8e0f019d4037b2344b9a
+Adding         repo/db/transactions/2-2.txn/ab09a7758bc9825dda5669827f02e001c2d615c9
+Adding         repo/db/transactions/2-2.txn/cb85fb5dcbb9ad262aa2396063970a05a2f967bf
+Adding         repo/db/transactions/2-2.txn/changes
+Adding         repo/db/transactions/2-2.txn/da39a3ee5e6b4b0d3255bfef95601890afd80709
+Adding  (bin)  repo/db/transactions/2-2.txn/index.l2p
+Adding  (bin)  repo/db/transactions/2-2.txn/index.p2l
+Adding         repo/db/transactions/2-2.txn/itemidx
+Adding  (bin)  repo/db/transactions/2-2.txn/next-ids
+Adding         repo/db/transactions/2-2.txn/node.0-1.0
+Adding         repo/db/transactions/2-2.txn/node.0-1.0.children
+Adding         repo/db/transactions/2-2.txn/node.0.0
+Adding         repo/db/transactions/2-2.txn/node.0.0.children
+Adding         repo/db/transactions/2-2.txn/node._1.0
+Adding         repo/db/transactions/2-2.txn/node._1.0.children
+Adding         repo/db/transactions/2-2.txn/node._10.0
+Adding         repo/db/transactions/2-2.txn/node._13.0
+Adding         repo/db/transactions/2-2.txn/node._15.0
+Adding         repo/db/transactions/2-2.txn/node._17.0
+Adding         repo/db/transactions/2-2.txn/node._17.0.children
+Adding         repo/db/transactions/2-2.txn/node._18.0
+Adding         repo/db/transactions/2-2.txn/node._18.0.children
+Adding         repo/db/transactions/2-2.txn/node._1a.0
+Adding         repo/db/transactions/2-2.txn/node._1a.0.props
+Adding         repo/db/transactions/2-2.txn/node._1e.0
+Adding         repo/db/transactions/2-2.txn/node._1e.0.props
+Adding         repo/db/transactions/2-2.txn/node._1h.0
+Adding         repo/db/transactions/2-2.txn/node._1h.0.props
+Adding         repo/db/transactions/2-2.txn/node._1k.0
+Adding         repo/db/transactions/2-2.txn/node._3.0
+Adding         repo/db/transactions/2-2.txn/node._6.0
+Adding         repo/db/transactions/2-2.txn/node._6.0.children
+Adding         repo/db/transactions/2-2.txn/node._7.0
+Adding         repo/db/transactions/2-2.txn/node._a.0
+Adding         repo/db/transactions/2-2.txn/node._c.0
+Adding         repo/db/transactions/2-2.txn/node._e.0
+Adding         repo/db/transactions/2-2.txn/node._g.0
+Adding         repo/db/transactions/2-2.txn/node._g.0.children
+Adding         repo/db/transactions/2-2.txn/node._h.0
+Adding         repo/db/transactions/2-2.txn/node._k.0
+Adding         repo/db/transactions/2-2.txn/node._m.0
+Adding         repo/db/transactions/2-2.txn/node._o.0
+Adding         repo/db/transactions/2-2.txn/node._q.0
+Adding         repo/db/transactions/2-2.txn/node._s.0
+Adding         repo/db/transactions/2-2.txn/node._s.0.props
+Adding         repo/db/transactions/2-2.txn/node._v.0
+Adding         repo/db/transactions/2-2.txn/node._x.0
+Adding         repo/db/transactions/2-2.txn/node._x.0.children
+Adding         repo/db/transactions/2-2.txn/node._y.0
+Adding         repo/db/transactions/2-2.txn/node._y.0.children
+Adding         repo/db/transactions/2-2.txn/props
+Adding         repo/db/txn-current
+Adding         repo/db/txn-current-lock
+Adding         repo/db/txn-protorevs
+Adding  (bin)  repo/db/txn-protorevs/2-2.rev
+Adding         repo/db/txn-protorevs/2-2.rev-lock
+Adding         repo/db/uuid
+Adding         repo/db/write-lock
+Adding         repo/format
+Adding         repo/hooks
+Adding         repo/hooks/post-commit.tmpl
+Adding         repo/hooks/post-lock.tmpl
+Adding         repo/hooks/post-revprop-change.tmpl
+Adding         repo/hooks/post-unlock.tmpl
+Adding         repo/hooks/pre-commit.tmpl
+Adding         repo/hooks/pre-lock.tmpl
+Adding         repo/hooks/pre-revprop-change.tmpl
+Adding         repo/hooks/pre-unlock.tmpl
+Adding         repo/hooks/start-commit.tmpl
+Adding         repo/locks
+Adding         repo/locks/db-logs.lock
+Adding         repo/locks/db.lock
+Committing transaction...
+Committed revision 3.
+ ~/subversion  ls
+repo
+ ~/subversion  mkdir Lab6 
+ ~/subversion  cd Lab6
+ ~/subversion/Lab6  ls
+ ~/subversion/Lab6  svn import "." "file:///Users/scarcrux/subversion/repo/projects" -m "importing project"
+ ~/subversion/Lab6  ls
+ ~/subversion/Lab6  cat > HelloWorld.java
+class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello, World!"); 
+    }
+}
+
+ ~/subversion/Lab6  head HelloWorld.java 
+class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello, World!"); 
+    }
+}
+
+ ~/subversion/Lab6  svn checkout "file:///Users/scarcrux/subversion/Lab6" "." 
+svn: E170013: Unable to connect to a repository at URL 'file:///Users/scarcrux/subversion/Lab6'
+svn: E180001: Unable to open repository 'file:///Users/scarcrux/subversion/Lab6'
+ ✘  ~/subversion/Lab6  svn status
+svn: warning: W155007: '/Users/scarcrux/subversion/Lab6' is not a working copy
+ ~/subversion/Lab6  cd ..
+ ~/subversion  ls
+Lab6 repo
+ ~/subversion  cd repo 
+ ~/subversion/repo  ls
+README.txt conf       db         format     hooks      locks
+ ~/subversion/repo  svn status
+svn: warning: W155007: '/Users/scarcrux/subversion/repo' is not a working copy
+ ~/subversion/repo  cd ..
+ ~/subversion  ls
+Lab6 repo
+ ~/subversion  cd Lab6
+ ~/subversion/Lab6  svn checkout "file:///Users/scarcrux/subversion/repo/projects" "."
+A    lab6
+A    repo
+A    repo/README.txt
+A    repo/conf
+A    repo/conf/authz
+A    repo/conf/hooks-env.tmpl
+A    repo/conf/passwd
+A    repo/conf/svnserve.conf
+A    repo/db
+A    repo/db/current
+A    repo/db/format
+A    repo/db/fs-type
+A    repo/db/fsfs.conf
+A    repo/db/min-unpacked-rev
+svn: E160006: malformed property list for node-revision 's-3.0.r3/109'
+svn: E160006: Invalid revision number '-1'
+ ✘  ~/subversion/Lab6  svn status
+! L     .
+?       HelloWorld.java
+  L     lab6
+! L     repo
+  L     repo/conf
+! L     repo/db
+ ~/subversion/Lab6  svn add HelloWorld.java 
+svn: E155004: Run 'svn cleanup' to remove locks (type 'svn help cleanup' for details)
+svn: E155004: Working copy '/Users/scarcrux/subversion/Lab6' locked.
+svn: E155004: '/Users/scarcrux/subversion/Lab6' is already locked.
+ ✘  ~/subversion/Lab6  svn cleanup
+ ~/subversion/Lab6  svn add HelloWorld.java
+A         HelloWorld.java
+ ~/subversion/Lab6  svn commit -m "Prints Hello World in Java"
+Adding         HelloWorld.java
+Transmitting file data .done
+Committing transaction...
+Committed revision 4.
+ ~/subversion/Lab6  nano HelloWorld.java 
+ ~/subversion/Lab6  head HelloWorld.java 
+class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Today's date is September 21, 2020."); 
+    }
+}
+
+ ~/subversion/Lab6  svn diff            
+Index: HelloWorld.java
+===================================================================
+--- HelloWorld.java	(revision 4)
++++ HelloWorld.java	(working copy)
+@@ -1,6 +1,6 @@
+ class HelloWorld {
+     public static void main(String[] args) {
+-        System.out.println("Hello, World!"); 
++        System.out.println("Today's date is September 21, 2020."); 
+     }
+ }
+ 
+ ~/subversion/Lab6  svn status
+!       .
+M       HelloWorld.java
+!       repo
+!       repo/db
+ ~/subversion/Lab6  svn commit -m "Prints today's date in Java"
+Sending        HelloWorld.java
+Transmitting file data .done
+Committing transaction...
+Committed revision 5.
+ ~/subversion/Lab6  svn status
+!       .
+!       repo
+!       repo/db
+ ~/subversion/Lab6  cd ..
+ ~/subversion  rm -rf repo
+ ~/subversion  ls
+Lab6
+ ~/subversion  rm -rf Lab6
+ ~/subversion  ls
+ ~/subversion  
